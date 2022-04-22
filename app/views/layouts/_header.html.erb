@@ -20,12 +20,13 @@
           <%if logged_in? %>
             <li><%= link_to "Users", '#'%> </li>
             <li class ="dropdown">
-              <button class="dropbtn" >
+              <a href="#" class = "dropdown-toggle" data-toggle = "dropdown" >
                 Acount <b class="caret"></b>
-              </button>
-              <ul class="dropdown-content">
+              </a>
+              <ul class="dropdown-menu">
                 <li><%=link_to "Profile", current_user %></li>
                 <li><%=link_to "Settings", '#' %> </li>
+                <li class="divider"></li>
                 <li>
                   <%=link_to "Log out", logout_path, method: :delete %>
                 </li>
