@@ -17,8 +17,10 @@ gem 'rexml', '3.2.4'
 gem 'faker', '2.11.0'
 gem 'will_paginate', '3.3.0'
 gem 'bootstrap-will_paginate', '1.0.0'
-gem 'image_processing', '>=1.2'
+gem 'image_processing', '~>1.2'
 gem 'mini_magick', '4.9.5'
+gem 'activestorage-dropbox'
+gem 'dropbox_api'
 
 group :development, :test do
   gem 'sqlite3', '1.4.2'
