@@ -14,7 +14,7 @@ Rails.application.configure do
 
   config.assets.compile = false
 
-  config.active_storage.service = :dropbox
+  config.active_storage.service = :local
 
   config.log_level = :info
 
