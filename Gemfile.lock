@@ -307,7 +307,7 @@ DEPENDENCIES
   faker (= 2.11.0)
   guard (= 2.16.2)
   guard-minitest (= 2.4.6)
-  image_processing (~> 1.2)
+  image_processing
   jbuilder (= 2.10.0)
   listen (= 3.4.1)
   mini_magick (= 4.9.5)
